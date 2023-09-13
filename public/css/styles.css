@@ -4,6 +4,14 @@
     font-family: 'Figtree', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
 .nav_bar {
     width: 100%;
     padding: 2%;
