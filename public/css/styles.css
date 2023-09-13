@@ -5,6 +5,40 @@
 }
 
 .prateek_logo {
-    width: 20em;
+    display: block;
+    width: 40em;
     height: auto;
+    margin: auto;
+}
+
+.listen_button {
+    display: block;
+    margin: 5% auto;
+    font-size: 2em;
+}
+
+.little_boxes {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.prateek_quotes_section {
+    display: flex;
+}
+
+.prateek_quotes_photo {
+    width: 40em;
+    height: auto;
+}
+
+.subscribe_button {
+    display: block;
+    margin: 5% auto;
+    font-size: 2em;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
