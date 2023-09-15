@@ -14,13 +14,12 @@
 <body>
     <nav class="nav_bar">
         <ul>
-            <li><a href="/#">Home</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-            <li><a href="/gallery.html">Gallery</a></li>
-            <li><a href="/lyrics.html">Lyrics</a></li>
-            <li><a href="/shows.html">Shows</a></li>
-            <li><a href="/songs.html">Songs</a></li>
-            <li><a href="/subscribe.html">Subscribe</a></li>
+            <li><a onclick="about()">About</a></li>
+            <li><a onclick="music()">Music</a></li>
+            <li><a onclick="press()">Press</a></li>
+            <li><a onclick="video()">Video</a></li>
+            <li><a onclick="contact()">Contact</a></li>
+            <li><a onclick="subscribe()">Subscribe</a></li>
         </ul>
     </nav>
     <img class="prateek_logo" src="/public/img/Prateek logo text only white.png" alt="Prateek's logo.">
@@ -63,17 +62,17 @@
             </p>
         </div>
     </div>
-    <div class="bio_section little_boxes">
-        <h2>BIO</h2>
+    <div id="about" class="bio_section little_boxes">
+        <h2>ABOUT</h2>
         <article>
             Prateek (pruh - TEEK) has been described as “Not just any guy with a guitar…” by The Boston Globe and perhaps that’s the best introduction to his music besides actually listening to it. The Boston-based artist recorded his debut EP, “Walking in My Sleep,” with only his guitar and two microphones in an attempt to emulate Bob Dylan’s early work. Since then, Prateek’s music has evolved to incorporate gritty electric guitars, silvery backing vocals, and lush strings, all draped around his own soulful, powerful voice. Prateek has been a Kerrville Folk Festival New Folk Finalist and has been nominated for Singer-Songwriter of the Year at both the New England Music Awards and the Boston Music Awards. His music has been played on radio stations including Sirius XM, 98.9 WERS, and 92.5 The River. His latest album, "‘Til June," is available wherever digital music is sold or streamed.
         </article>
     </div>
-    <div class="music_section little_boxes">
+    <div id="music" class="music_section little_boxes">
         <h2>MUSIC</h2>
-        <iframe width="100%" height="800" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1502004493&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/prateekmusic" title="Prateek" target="_blank" style="color: #cccccc; text-decoration: none;">Prateek</a> · <a href="https://soundcloud.com/prateekmusic/sets/til-june" title="&#x27;Til June" target="_blank" style="color: #cccccc; text-decoration: none;">&#x27;Til June</a></div>
+        <iframe class="til_june" style="border-radius:12px" src="https://open.spotify.com/embed/album/0ldTZ7gtbDR7x2Nxhm4E8z?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
-    <div class="press_section little_boxes">
+    <div id="press" class="press_section little_boxes">
         <h2>PRESS</h2>
         <article>
             <div class="bottom_quotes">
@@ -96,19 +95,19 @@
             </div>
         </article>
     </div>
-    <div class="video_section little_boxes">
+    <div id="video" class="video_section little_boxes">
         <h2>VIDEO</h2>
         <div>
             <iframe class="video" src="https://www.youtube.com/embed/KfAX54K2A58?si=lffdpkRfbnHZb5ia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="contact_section little_boxes">
+    <div id="contact" class="contact_section little_boxes">
         <h2>CONTACT</h2>
         <div>
             Email: <a href="mailto:prateek@prateeksongs.com">prateek@prateeksongs.com</a>
         </div>
     </div>
-    <div class="subscribe_section little_boxes">
+    <div id="subscribe" class="subscribe_section little_boxes">
         <h2>SUBSCRIBE</h2>
         <div>
             Subscribe to Prateek on Patreon for monthly livestreams, exclusive content, and more!

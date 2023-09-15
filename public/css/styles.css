@@ -12,6 +12,7 @@ a {
 
 a:hover {
     color: gray;
+    cursor: pointer;
 }
 
 .button {
@@ -100,6 +101,11 @@ a:hover {
 
 .top_quotes {
     font-size: 1.2em;
+}
+
+.til_june {
+    width: 100%;
+    height: 41em;
 }
 
 .bottom_quotes {
