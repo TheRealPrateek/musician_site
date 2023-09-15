@@ -14,6 +14,10 @@ function video() {
     window.scrollTo(0, document.getElementById("video").offsetTop-115);
 }
 
+function shows() {
+    window.scrollTo(0, document.getElementById("shows").offsetTop-115);
+}
+
 function contact() {
     window.scrollTo(0, document.getElementById("contact").offsetTop-115);
 }
