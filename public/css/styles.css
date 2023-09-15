@@ -28,6 +28,12 @@ a:hover {
     cursor: pointer;
 }
 
+.fa-brands:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+
 .little_boxes {
     width: 80%;
     margin: 5% auto;
@@ -114,6 +120,7 @@ a:hover {
 
 .footer ul li {
     margin: 1% 3% 3% 3%;
+    font-size: 2em;
 }
 
 .video {
