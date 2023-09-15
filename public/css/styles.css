@@ -31,7 +31,7 @@ a:hover {
 .little_boxes {
     width: 80%;
     margin: 5% auto;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 /* header styles */
@@ -43,6 +43,7 @@ a:hover {
     box-sizing: border-box;
     margin: auto;
     top: 0;
+    left: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -54,7 +55,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 1.5em;
+    font-size: 1.2em;
     list-style: none;
 }
 
@@ -70,20 +71,25 @@ a:hover {
     justify-content: space-between;
 }
 
-.prateek_quotes_photo {
+.quotes_photo_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quotes_photo {
     width: 30em;
     height: auto;
 }
 
 .prateek_quotes {
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 .top_quotes {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .bottom_quotes {
