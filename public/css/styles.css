@@ -70,7 +70,7 @@ a:hover {
     list-style: none;
 }
 
-/* other styles */
+/* body styles */
 
 .prateek_logo {
     display: block;
@@ -79,26 +79,9 @@ a:hover {
     margin: 10% auto 0 auto;
 }
 
-.prateek_quotes_section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.quotes_photo_container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .quotes_photo {
     width: auto;
     height: 30em;
-}
-
-.prateek_quotes {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .about-section {
@@ -106,46 +89,38 @@ a:hover {
     justify-content: space-between;
 }
 
-.about-text {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .top_quotes {
     font-size: 1.2em;
 }
 
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4%;
+}
+
+.music-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .til_june {
     width: 100%;
-    height: 41em;
-    margin-bottom: 4%;
-}
-
-.bottom_quotes {
-    padding: 2% 0;
-}
-
-.footer {
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-.footer ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 30%;
-    margin: 10% auto 6% auto;
-    left: 0;
+    height: 30em;
+    margin-right: 2%;
 }
 
 .video {
     width: 100%;
     height: 30em;
-    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.bottom_quotes {
+    padding: 2% 0;
 }
 
 #mc_embed_shell {
@@ -170,6 +145,23 @@ a:hover {
 
 .mc-legal {
     text-decoration: underline;
+}
+
+/* footer styles */
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 30%;
+    margin: 10% auto 6% auto;
+    left: 0;
 }
 
 /* media queries */
