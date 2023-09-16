@@ -70,6 +70,8 @@ a:hover {
     list-style: none;
 }
 
+/* other styles */
+
 .prateek_logo {
     display: block;
     width: 40em;
@@ -99,6 +101,18 @@ a:hover {
     justify-content: space-evenly;
 }
 
+.about-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .top_quotes {
     font-size: 1.2em;
 }
@@ -106,6 +120,7 @@ a:hover {
 .til_june {
     width: 100%;
     height: 41em;
+    margin-bottom: 4%;
 }
 
 .bottom_quotes {
@@ -130,6 +145,31 @@ a:hover {
 .video {
     width: 100%;
     height: 30em;
+    margin-top: 4%;
+}
+
+#mc_embed_shell {
+    margin-top: 5%;
+}
+
+.mc-field-group {
+    margin: 1.5% 0;
+}
+
+.mc_fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.email, .text, .zip {
+    background-color: white;
+    color: black;
+    font-size: 1.1em;
+}
+
+.mc-legal {
+    text-decoration: underline;
 }
 
 /* media queries */
