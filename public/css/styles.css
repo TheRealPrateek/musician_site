@@ -73,7 +73,7 @@ a:hover {
 .hburg-menu {
     display: none;
     font-size: 2rem;
-    padding: 3%;
+    margin: 2%;
 }
 
 .hburg-menu:hover, .fa-xmark:hover {
@@ -82,7 +82,7 @@ a:hover {
 
 .fa-xmark {
     font-size: 2rem;
-    padding: 3%;
+    margin: 3%;
 }
 
 .menu {
