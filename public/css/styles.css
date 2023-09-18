@@ -47,7 +47,7 @@ a:hover {
 
 /* header styles */
 
-.nav_bar {
+.nav {
     width: 100%;
     padding: 2%;
     padding-right: 4%;
@@ -61,13 +61,49 @@ a:hover {
     position: fixed;
 }
 
-.nav_bar ul {
+.nav-bar {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.2em;
     list-style: none;
+}
+
+.hburg-menu {
+    display: none;
+    font-size: 2rem;
+    padding: 3%;
+}
+
+.hburg-menu:hover, .fa-xmark:hover {
+    cursor: pointer;
+}
+
+.fa-xmark {
+    font-size: 2rem;
+    padding: 3%;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    transform: translateY(-200%);
+    transition: transform 0.3s;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    list-style: none;
+    padding: 3%;
+    background-color: black;
+}
+
+.menu-item {
+    display: none;
+    margin: 2rem 4rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: right;
 }
 
 /* body styles */
@@ -167,6 +203,41 @@ a:hover {
 /* media queries */
 
 @media screen and (max-width: 320px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .hburg-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-color: black;
+    }
+
+    .menu-item {
+        display: block;
+    }
+
+    .fa-xmark {
+        font-size: 2.5em;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+    
     .quotes_photo {
         width: 100%;
         height: auto;
@@ -203,6 +274,41 @@ a:hover {
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .hburg-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-color: black;
+    }
+
+    .menu-item {
+        display: block;
+    }
+
+    .fa-xmark {
+        font-size: 2.5em;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+    
     .quotes_photo {
         width: 100%;
         height: auto;
@@ -239,6 +345,41 @@ a:hover {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .hburg-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-color: black;
+    }
+
+    .menu-item {
+        display: block;
+    }
+
+    .fa-xmark {
+        font-size: 2.5em;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+    
     .quotes_photo {
         width: 100%;
         height: auto;
@@ -275,6 +416,41 @@ a:hover {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+    
+    .nav-bar {
+        display: none;
+    }
+
+    .hburg-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-color: black;
+    }
+
+    .menu-item {
+        display: block;
+    }
+
+    .fa-xmark {
+        font-size: 2.5em;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+    
     .quotes_photo {
         width: 100%;
         height: auto;

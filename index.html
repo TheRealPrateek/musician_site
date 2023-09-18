@@ -12,8 +12,8 @@
     <script src="https://kit.fontawesome.com/32a0eb039b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="nav_bar">
-        <ul>
+    <nav class="nav">
+        <ul class="nav-bar">
             <li><a onclick="about()">About</a></li>
             <li><a onclick="music()">Music</a></li>
             <li><a onclick="press()">Press</a></li>
@@ -21,7 +21,19 @@
             <li><a onclick="subscribe()">Subscribe</a></li>
             <li><a onclick="contact()">Contact</a></li>
         </ul>
+        <div class="hburg-menu" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </nav>
+    <ul class="menu">
+        <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
+        <li><a class="menu-item" onclick="about()">About</a></li>
+        <li><a class="menu-item" onclick="music()">Music</a></li>
+        <li><a class="menu-item" onclick="press()">Press</a></li>
+        <li><a class="menu-item" onclick="shows()">Shows</a></li>
+        <li><a class="menu-item" onclick="subscribe()">Subscribe</a></li>
+        <li><a class="menu-item" onclick="contact()">Contact</a></li>
+    </ul>
     <img class="prateek_logo" src="/public/img/Prateek logo text only white.png" alt="Prateek's logo.">
     <div>
         <a href="https://open.spotify.com/album/0ldTZ7gtbDR7x2Nxhm4E8z?si=MxL3MuqURdmctq037JL94A" target="_blank"><button class="button">Listen to Prateek's latest album "'Til June" here!</button></a>
