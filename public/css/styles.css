@@ -207,7 +207,16 @@ a:hover {
         display: block;
         width: 20em;
         height: auto;
-        margin: 22% auto 0 auto;
+        margin: 25% auto 0 auto;
+    }
+
+    .button {
+        display: block;
+        margin: 5% auto;
+        width: 80%;
+        font-size: 1.1em;
+        padding: 2%;
+        border: solid white 2px;
     }
     
     .nav {
@@ -285,7 +294,16 @@ a:hover {
         display: block;
         width: 20em;
         height: auto;
-        margin: 22% auto 0 auto;
+        margin: 25% auto 0 auto;
+    }
+
+    .button {
+        display: block;
+        margin: 5% auto;
+        width: 80%;
+        font-size: 1.1em;
+        padding: 2%;
+        border: solid white 2px;
     }
     
     .nav {
@@ -363,9 +381,16 @@ a:hover {
         display: block;
         width: 30em;
         height: auto;
-        margin: 18% auto 0 auto;
+        margin: 20% auto 0 auto;
     }
     
+    .button {
+        display: block;
+        margin: 5% auto;
+        font-size: 1.2em;
+        padding: 2%;
+        border: solid white 2px;
+    }
 
     .nav {
         display: flex;
@@ -438,6 +463,10 @@ a:hover {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .prateek_logo {
+        margin-top: 15%;
+    }
+
     .nav {
         display: flex;
         align-items: center;
