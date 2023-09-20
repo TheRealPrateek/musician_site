@@ -287,6 +287,11 @@ a:hover {
         height: 30em;
         margin: 5% 0 0 0;
     }
+
+    .footer ul {
+        width: 80%;
+        margin: 10% auto 10% auto;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -374,6 +379,12 @@ a:hover {
         height: 30em;
         margin: 5% 0 0 0;
     }
+
+    .footer ul {
+        width: 70%;
+        margin: 10% auto 10% auto;
+    }
+    
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -460,6 +471,11 @@ a:hover {
         height: 30em;
         margin: 5% 0 0 0;
     }
+
+    .footer ul {
+        width: 60%;
+        margin: 10% auto 10% auto;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -535,16 +551,23 @@ a:hover {
         height: 30em;
         margin: 5% 0 0 0;
     }
+
+    .footer ul {
+        width: 60%;
+        margin: 10% auto 10% auto;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-
+    .footer ul {
+        width: 50%;
+        margin: 10% auto 10% auto;
+    }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1350px) {
-
-}
-
-@media screen and (min-width: 1351px) {
-    
+    .footer ul {
+        width: 40%;
+        margin: 10% auto 10% auto;
+    }
 }
