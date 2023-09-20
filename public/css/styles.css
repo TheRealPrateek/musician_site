@@ -51,6 +51,7 @@ a:hover {
     width: 100%;
     padding: 2%;
     padding-right: 4%;
+    z-index: 1;
     box-sizing: border-box;
     margin: auto;
     top: 0;
@@ -158,6 +159,10 @@ a:hover {
 .bottom_quotes {
     padding: 2% 0;
 }
+
+/* .bit-widget-initializer {
+    z-index: -1;
+} */
 
 #mc_embed_shell {
     margin-top: 5%;
