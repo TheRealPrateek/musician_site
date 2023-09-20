@@ -398,8 +398,9 @@ a:hover {
     
     .button {
         display: block;
+        width: 70%;
         margin: 5% auto;
-        font-size: 1.2em;
+        font-size: 1.3em;
         padding: 2%;
         border: solid white 2px;
     }
