@@ -121,6 +121,10 @@ a:hover {
     height: 30em;
 }
 
+#about, #music, #press, #shows, #subscribe, #contact {
+    scroll-margin-top: 7em;
+}
+
 .about-section {
     display: flex;
     justify-content: space-between;
@@ -209,6 +213,10 @@ a:hover {
         width: 20em;
         height: auto;
         margin: 25% auto 0 auto;
+    }
+
+    #about, #music, #press, #shows, #subscribe, #contact {
+        scroll-margin-top: 6em;
     }
 
     .button {
@@ -301,6 +309,10 @@ a:hover {
         width: 20em;
         height: auto;
         margin: 25% auto 0 auto;
+    }
+
+    #about, #music, #press, #shows, #subscribe, #contact {
+        scroll-margin-top: 6em;
     }
 
     .button {
