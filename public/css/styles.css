@@ -32,6 +32,7 @@ a:hover {
     color: black;
     background-color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .fa-brands {
