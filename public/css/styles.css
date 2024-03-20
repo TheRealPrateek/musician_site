@@ -254,7 +254,11 @@ a:hover {
     .showMenu {
         transform: translateY(0);
     }
-    
+
+    .little_boxes {
+        margin: 10% auto;
+    }
+
     .quotes_photo {
         width: 100%;
         height: auto;
@@ -350,6 +354,10 @@ a:hover {
     .showMenu {
         transform: translateY(0);
     }
+
+    .little_boxes {
+        margin: 10% auto;
+    }
     
     .quotes_photo {
         width: 100%;
@@ -442,6 +450,10 @@ a:hover {
 
     .showMenu {
         transform: translateY(0);
+    }
+
+    .little_boxes {
+        margin: 10% auto;
     }
     
     .quotes_photo {
