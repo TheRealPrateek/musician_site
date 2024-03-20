@@ -24,7 +24,7 @@ a:hover {
     display: block;
     margin: 5% auto;
     font-size: 1.5em;
-    padding: 2%;
+    padding: 1em;
     border: solid white 2px;
 }
 
@@ -124,7 +124,7 @@ a:hover {
 
 .quotes_photo {
     width: auto;
-    height: 30em;
+    height: 40em;
 }
 
 #about, #music, #press, #shows, #subscribe, #contact {
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .top_quotes {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .about-text {
@@ -214,12 +214,8 @@ a:hover {
     }
 
     .button {
-        display: block;
-        margin: 5% auto;
         width: 80%;
         font-size: 1.1em;
-        padding: 2%;
-        border: solid white 2px;
     }
     
     .nav {
@@ -314,12 +310,8 @@ a:hover {
     }
 
     .button {
-        display: block;
-        margin: 5% auto;
         width: 80%;
         font-size: 1.1em;
-        padding: 2%;
-        border: solid white 2px;
     }
     
     .nav {
@@ -411,12 +403,8 @@ a:hover {
     }
     
     .button {
-        display: block;
         width: 70%;
-        margin: 5% auto;
         font-size: 1.3em;
-        padding: 2%;
-        border: solid white 2px;
     }
 
     .nav {
@@ -579,15 +567,50 @@ a:hover {
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .quotes_photo {
+        width: 100%;
+        height: auto;
+    }
+    
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .about-text {
+        margin: 5% 0 0 0;
+    }
+
+    .top_quotes {
+        font-size: 1.2em;
+        margin: 5% 0 5% 0;
+    }
+    
+
     .footer ul {
         width: 50%;
         margin: 10% auto 10% auto;
     }
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1350px) {
+@media screen and (min-width: 1201px) and (max-width: 1599px) {
+    .quotes_photo {
+        width: auto;
+        height: 30em;
+    }
+    .top_quotes {
+        font-size: 1.2em;
+    }    
     .footer ul {
         width: 40%;
         margin: 10% auto 10% auto;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .bio-text {
+        font-size: 1.2em;
     }
 }
