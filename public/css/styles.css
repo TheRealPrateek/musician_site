@@ -173,7 +173,7 @@ a:hover {
 }
 
 .signupFormList li {
-    padding: .5em;
+    margin: 1em 0 1em 0;
 }
 
 .signupFormList input {
