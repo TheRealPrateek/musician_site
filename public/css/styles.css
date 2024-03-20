@@ -168,28 +168,16 @@ a:hover {
     padding: 2% 0;
 }
 
-#mc_embed_shell {
-    margin-top: 5%;
+.signupFormList {
+    list-style: none;
 }
 
-.mc-field-group {
-    margin: 1.5% 0;
+.signupFormList li {
+    padding: .5em;
 }
 
-.mc_fieldset {
-    border: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.email, .text, .zip {
-    background-color: white;
-    color: black;
-    font-size: 1.1em;
-}
-
-.mc-legal {
-    text-decoration: underline;
+.signupFormList input {
+    font-size: 100%;
 }
 
 /* footer styles */

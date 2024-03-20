@@ -198,69 +198,56 @@
     <div id="subscribe" class="subscribe_section little_boxes">
         <h2>SUBSCRIBE</h2>
         <div>
-            Subscribe to Prateek's email list to recieve the latest info on upcoming music and shows!
+            <p>
+                Subscribe to Prateek's email list to recieve the latest info on upcoming music and shows!
+            </p>
+            <p>
+                <i>
+                    Required fields are marked with an asterisk.
+                </i>
+            </p>
         </div>
-        <div id="mc_embed_shell">
-            <div id="mc_embed_signup">
-                <form action="https://prateeksongs.us13.list-manage.com/subscribe/post?u=5f656b8beca0b82718240a13e&amp;id=79244efc2e&amp;v_id=5186&amp;f_id=0081f0e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
-                    <div id="mc_embed_signup_scroll">
-                        <div class="indicates-required">
-                            <span class="asterisk"><i>*</span>indicates required</i>
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
-                            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-FNAME">First Name <span class="asterisk">*</span></label>
-                            <input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value="">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-LNAME">Last Name <span class="asterisk">*</span></label>
-                            <input type="text" name="LNAME" class="required text" id="mce-LNAME" required="" value="">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-MMERGE3">Zip Code </label>
-                            <input type="zip" name="MMERGE3" class=" zip" id="mce-MMERGE3" value="">
-                        </div>
-                        <br>
-                        <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
-                            <div class="content__gdpr"><h3>Marketing Permissions</h3>
-                                <p>Prateek will use the information you provide on this form to be in touch with you and to provide updates and marketing. Please let us know all the ways you would like to hear from us:</p>
-                                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
-                                    <label class="checkbox subfield" for="gdpr_11553">
-                                        <input type="checkbox" id="gdpr_11553" name="gdpr[11553]" class="gdpr" value="Y"><span>Email</span>
-                                    </label>
-                                    <label class="checkbox subfield" for="gdpr_11557">
-                                        <input type="checkbox" id="gdpr_11557" name="gdpr[11557]" class="gdpr" value="Y"><span>Direct Mail</span>
-                                    </label>
-                                    <label class="checkbox subfield" for="gdpr_11561">
-                                        <input type="checkbox" id="gdpr_11561" name="gdpr[11561]" class="gdpr" value="Y"><span>Customized online advertising</span>
-                                    </label>
-                                </fieldset>
-                                <p>You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at prateek@prateeksongs.com. We will treat your information with respect. For more information about our privacy practices please visit our website. By clicking below, you agree that we may process your information in accordance with these terms.</p>
-                            </div>
-                            <div class="content__gdprLegal">
-                                <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. Learn more about Mailchimp's privacy practices <a href="https://mailchimp.com/legal/terms" target="_blank" class="mc-legal">here.</a></p>
-                            </div>
-                        </div>
-                    <div id="mce-responses" class="clear foot">
-                        <div class="response" id="mce-error-response" style="display: none;"></div>
-                        <div class="response" id="mce-success-response" style="display: none;"></div>
-                    </div>
-                <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
-                    <input type="text" name="b_5f656b8beca0b82718240a13e_79244efc2e" tabindex="-1" value="">
-                </div>
-                    <div class="optionalParent">
-                        <div class="clear foot">
-                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                            <!-- <p style="margin: 0px auto;"><a href="http://eepurl.com/ixb8J2" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p> -->
-                        </div>
-                    </div>
-                </div>
-                </form>
-            </div>
+        <div>
+            <form class="mailingListForm" action="https://prateeksongs.us13.list-manage.com/subscribe/post" method="POST">
+                <input type="hidden" name="u" value="5f656b8beca0b82718240a13e">
+                <input type="hidden" name="id" value="79244efc2e">
+                <ul class="signupFormList">
+                    <li>
+                        <label for="email">Email address: </label>* <input id="email" name="MERGE0" type="email">
+                    </li>
+                    <li>
+                        <label for="fname">First name: </label>* <input id="fname" name="MERGE1" type="text">
+                    </li>
+                    <li>
+                        <label for="lname">Last name: </label>* <input id="lname" name="MERGE2" type="text">
+                    </li>
+                    <li>
+                        <label for="zip">Zip code: </label><input id="zip" name="MERGE3" type="text">
+                    </li>
+                </ul>
+                <h3>Marketing Permissions</h3>
+                <p>
+                    Prateek will use the information you provide on this form to be in touch with you and to provide updates and marketing. Please let us know all the ways you would like to hear from us:
+                </p>
+                <ul class="signupFormList">
+                    <li>
+                        <input type="checkbox" id="emailBox" name="gdpr[11553]"><label for="emailBox">Email</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="mailBox" name="gdpr[11557]"><label for="mailBox">Direct mail</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="adBox" name="gdpr[11561]"><label for="adBox">Customized online advertising</label>
+                    </li>
+                </ul>
+                <p>
+                    You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at prateek@prateeksongs.com. We will treat your information with respect. For more information about our privacy practices please visit our website. By clicking below, you agree that we may process your information in accordance with these terms.
+                </p>
+                <p>
+                    We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. Learn more about Mailchimp's privacy practices <u><a href="https://mailchimp.com/legal/terms/" target="_blank">here.</a></u>
+                </p>
+                <button class="button" type="submit">Subscribe</button>
+            </form>
         </div>
     </div>
     <div id="contact" class="contact_section little_boxes">
