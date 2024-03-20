@@ -12,6 +12,7 @@ a {
 
 a:hover {
     color: gray;
+    text-decoration: underline;
     cursor: pointer;
 }
 
