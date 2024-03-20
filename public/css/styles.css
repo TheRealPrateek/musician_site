@@ -15,6 +15,10 @@ a:hover {
     cursor: pointer;
 }
 
+#about, #music, #press, #shows, #subscribe, #contact {
+    scroll-margin-top: 8em;
+}
+
 .button {
     display: block;
     margin: 5% auto;
