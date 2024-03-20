@@ -126,7 +126,7 @@ a:hover {
 }
 
 #about, #music, #press, #shows, #subscribe, #contact {
-    scroll-margin-top: 7em;
+    scroll-margin-top: 10em;
 }
 
 .about-section {
