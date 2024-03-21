@@ -6,11 +6,13 @@
     <meta name="description" content="The official website of Boston-based singer-songwriter Prateek.">
     <title>Prateek: the official site for Prateek's music and shows</title>
     <link rel="stylesheet" href="/public/css/styles.css">
-    <script defer src="/public/js/scripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
+    <script defer src="node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
     <script src="https://kit.fontawesome.com/32a0eb039b.js" crossorigin="anonymous"></script>
+    <script src="/public/js/scripts.js"></script>
 </head>
 <body>
     <nav class="nav">
@@ -22,6 +24,7 @@
             <li><a href="#subscribe" tabindex="0">Subscribe</a></li>
             <li><a href="#contact" tabindex="0">Contact</a></li>
         </ul>
+        <lite-youtube></lite-youtube>
         <div class="hburg-menu" onclick="toggleMenu()" tabindex="0">
             <i class="fa-solid fa-bars"></i>
         </div>
@@ -74,7 +77,10 @@
         <h2>MUSIC</h2>
         <div class="music-box">
             <iframe title="Play Prateek's music in Spotify." class="spotify-embed" src="https://open.spotify.com/embed/album/0ldTZ7gtbDR7x2Nxhm4E8z?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" tabindex="0"></iframe>
-            <iframe title="Watch a video of Prateek on YouTube." class="youtube-embed" src="https://www.youtube.com/embed/KfAX54K2A58?si=lffdpkRfbnHZb5ia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen tabindex="0"></iframe>
+            <iframe title="Watch a video of Prateek on YouTube." class="youtube-embed" src="https://www.youtube.com/embed/KfAX54K2A58?si=lffdpkRfbnHZb5ia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy" tabindex="0"></iframe>
+            <lite-youtube videoid="KfAX54K2A58" playlabel="Play: Prateek - The Gang's All Gone [Sound Drift Sessions]" style="background-image: url(https://www.youtube.com/watch?v=KfAX54K2A58);">
+                <iframe title="Watch a video of Prateek on YouTube." class="youtube-embed" src="https://www.youtube.com/embed/KfAX54K2A58?si=lffdpkRfbnHZb5ia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy" tabindex="0"></iframe>
+            </lite-youtube>
         </div>
     </div>
     <div id="press" class="press_section little_boxes">
