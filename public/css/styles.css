@@ -6,6 +6,10 @@
     font-family: 'Figtree', sans-serif;
 }
 
+figure {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -115,6 +119,12 @@ a:hover {
 
 /* body styles */
 
+h1 {
+    text-align: center;
+    width: 90%;
+    margin: 1em auto;
+}
+
 .prateek_logo {
     display: block;
     width: 40em;
@@ -125,6 +135,10 @@ a:hover {
 .quotes_photo {
     width: auto;
     height: 40em;
+}
+
+.quotes_photo_caption {
+    font-size: .8em;
 }
 
 #about, #music, #press, #shows, #subscribe, #contact {
