@@ -172,11 +172,11 @@ a:hover {
 
 .signupFormList {
     list-style: none;
-    margin: 3em 0;
+    margin: 2em 0;
 }
 
 .signupFormList li {
-    margin: 1em 0 1em 0;
+    margin: .5em 0;
 }
 
 .signupFormList input {
@@ -192,7 +192,7 @@ a:hover {
 }
 
 .signupFormChecks input {
-    margin: 1em 0;
+    margin: .5em 0;
 }
 
 /* footer styles */
