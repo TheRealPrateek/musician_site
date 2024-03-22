@@ -20,6 +20,11 @@ a:hover {
     cursor: pointer;
 }
 
+a:active {
+    color: gray;
+    text-decoration: underline;
+}
+
 #about, #music, #press, #shows, #subscribe, #contact {
     scroll-margin-top: 8em;
 }
@@ -36,6 +41,12 @@ a:hover {
     color: black;
     background-color: white;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.button:active {
+    color: black;
+    background-color: white;
     text-decoration: none;
 }
 
@@ -93,7 +104,8 @@ a:hover {
 
 .fa-xmark {
     font-size: 2rem;
-    margin: 3%;
+    margin: .1em .5em .5em 0;
+    /* border: solid white 1px; */
 }
 
 .menu {
@@ -105,13 +117,13 @@ a:hover {
     right: 0;
     z-index: 99;
     list-style: none;
-    padding: 3%;
+    padding: 3% 3% 10% 3%;
     background-color: black;
 }
 
 .menu-item {
     display: none;
-    margin: 2rem 4rem;
+    margin: 1.3rem 4rem;
     font-size: 1.2rem;
     text-decoration: none;
     text-align: right;
@@ -329,6 +341,14 @@ h1 {
         width: 80%;
         margin: 10% auto 10% auto;
     }
+
+    .signupFormList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -433,6 +453,14 @@ h1 {
     .footer ul {
         width: 70%;
         margin: 10% auto 10% auto;
+    }
+
+    .signupFormList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
     
 }
