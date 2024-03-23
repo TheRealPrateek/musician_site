@@ -226,18 +226,12 @@ h1 {
 /* footer styles */
 
 .footer {
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-.footer ul {
     display: flex;
     justify-content: space-between;
-    list-style: none;
+    align-items: center;
     width: 30%;
-    margin: 10% auto 6% auto;
-    left: 0;
+    margin: 10% auto 7.5% auto;
+    text-align: center;
 }
 
 /* media queries */
@@ -337,17 +331,17 @@ h1 {
         margin: 5% 0 0 0;
     }
 
-    .footer ul {
-        width: 80%;
-        margin: 10% auto 10% auto;
-    }
-
     .signupFormList {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+    }
+
+    .footer {
+        width: 80%;
+        margin: 10% auto;
     }
 }
 
@@ -450,9 +444,9 @@ h1 {
         margin: 5% 0 0 0;
     }
 
-    .footer ul {
+    .footer {
         width: 70%;
-        margin: 10% auto 10% auto;
+        margin: 10% auto;
     }
 
     .signupFormList {
@@ -556,9 +550,9 @@ h1 {
         margin: 5% 0 0 0;
     }
 
-    .footer ul {
+    .footer {
         width: 60%;
-        margin: 10% auto 10% auto;
+        margin: 10% auto;
     }
 }
 
@@ -641,9 +635,9 @@ h1 {
         margin: 5% 0 0 0;
     }
 
-    .footer ul {
+    .footer {
         width: 60%;
-        margin: 10% auto 10% auto;
+        margin: 10% auto;
     }
 }
 
@@ -669,9 +663,9 @@ h1 {
     }
     
 
-    .footer ul {
+    .footer {
         width: 50%;
-        margin: 10% auto 10% auto;
+        margin: 10% auto;
     }
 }
 
@@ -683,9 +677,8 @@ h1 {
     .top_quotes {
         font-size: 1.2em;
     }    
-    .footer ul {
+    .footer {
         width: 40%;
-        margin: 10% auto 10% auto;
     }
 }
 
